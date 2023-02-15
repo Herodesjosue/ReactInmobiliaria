@@ -1,0 +1,26 @@
+.UsuarioInfo img {
+
+    border-radius: 20px;
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+    
+}
+
+.UsuarioInfo {
+
+    display: flex;
+    flex-direction: row-reverse;
+    margin: auto;
+    position: absolute;
+    right: 0%;
+    margin-right: 50px;
+    
+}
+
+.UsuarioInfo button{
+
+    border-radius: 20px;
+    margin-right: 5px;
+    
+}

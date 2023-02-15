@@ -1,0 +1,19 @@
+.Links {
+  text-decoration: none;
+  color: white;
+  margin: auto;
+  padding: 5px;
+  text-align: left;
+}
+
+.Collapse{
+
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+}
+
+.IconMargin{
+
+  margin-bottom: 2px;
+}

@@ -1,0 +1,36 @@
+.modal {
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgba(0, 0, 0, 0.75);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.modal-container {
+  position: relative;
+  width: 950px;
+  /* min-height: 200px; */
+  height: 500px;
+  overflow-y: hidden;
+  background-color:rgba(8, 8, 8,0.8);
+  border-radius: 30px;
+}
+
+.modal-close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  height: 32px;
+  width: 32px;
+  border-radius: 50px;
+}
+
+.modal.is-open {
+  display: flex;
+}

@@ -1,0 +1,58 @@
+.botones{
+
+    text-decoration: none;
+}
+
+/*Imagen de la ventana modal contenida*/
+.images{
+
+    height: 480px;
+    width: 600px;
+    padding: 40px;
+    border-radius: 10px;
+    margin: auto;
+    object-fit: cover;
+}
+
+
+.informacion {
+
+    color: white;
+
+}
+
+/*Imagen principal de la tarjeta*/
+/* .cardImage{
+
+    height: 280px;
+    object-fit: cover;
+} */
+
+.cardImage{
+
+    height: 280px;
+    object-fit: cover;
+    width: 18rem;
+}
+
+/*Configuracion de las lista*/
+.ListaDescripcion{
+
+
+    list-style: none;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 10px rgb(79, 79, 79);
+
+}
+
+/*titulo de la ventana modal*/
+
+.tituloModal{
+
+    margin-top: 50px;
+    text-transform: uppercase;
+    /* text-decoration: underline; */
+    font-size: 18px;
+    font-style: normal;
+    text-shadow: 1px 1px 10px rgb(79, 79, 79);
+}
