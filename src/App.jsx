@@ -16,16 +16,16 @@ import { NotFound } from "./Componentes/NotFound";
 function App() {
   const navigate = useNavigate();
   const [sesion, setSesion] = useState(false);
-  useEffect(() => {
-    supabase.auth.onAuthStateChange((event, session) => {
-      // console.log(event, session);
-      if (!session) {
-        navigate("/Login");
-      } else {
-        navigate("/Inicio");
-      }
-    });
-  }, []);
+  // useEffect(() => {
+  //   supabase.auth.onAuthStateChange((event, session) => {
+  //     console.log(event, session);
+  //     if (!session) {
+  //       navigate("/Login");
+  //     } else {
+  //       navigate("/Inicio");
+  //     }
+  //   });
+  // }, []);
 
   useEffect(() => {
     const detectarUsuario = async () => {

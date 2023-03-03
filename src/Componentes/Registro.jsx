@@ -86,6 +86,7 @@ export const Registro = () => {
       setLoader(true);
       console.log(test);
     }
+    
   }, [test]);
 
   useEffect(() => {

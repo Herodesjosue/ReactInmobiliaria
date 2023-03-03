@@ -7,16 +7,16 @@ import { supabase } from "../supabase/createClient";
 export const HomePage = () => {
   const navigate = useNavigate();
 
-  useEffect(() => {
-    const detectarUsuario = async () => {
-      const { data, error } = await supabase.auth.getUser();
-      if(data.user == null){
-        navigate("/Login")
-      }
-      console.log(data);
-    };
-    detectarUsuario()
-  }, [navigate]);
+  // useEffect(() => {
+  //   const detectarUsuario = async () => {
+  //     const { data, error } = await supabase.auth.getUser();
+  //     if(data.user == null){
+  //       navigate("/Login")
+  //     }
+  //     console.log(data);
+  //   };
+  //   detectarUsuario()
+  // }, []);
 
   return (
     <div>
